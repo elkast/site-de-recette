@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aceuil</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./logo_site_externe/orsini logo.jpeg" >
+
+</head>
+<body style="background: linear-gradient(to right, #FFF7E9, #FFE8CB, #FFD8BE, #FFC89B, #FFBA90, #FFAC85, #FF9D7A, #FF8E6F, #FF7F64, #FF7059, #FF604E, #FF5043);
+">
+    <!-- barre de navigation -->
+    <nav>
+         <h1>COOK_FOREVER PAR ELKAST</h1>
+        <ul>
+            <li><a href="index.html">aceuil</a></li>
+            <li><a href="recette.html">recette</a></li>
+            <li><a href="a_propos.html">a propos</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- page d aceuil -- -->
+<body>
+    <!-- Barre de navigation -->
+    <main>
+        <section class="featured-recipes">
+            <h2>Recettes en vedette</h2>
+            <div class="recipe-grid">
+                <div class="recipe-card">
+                    <img src="https://imgs.search.brave.com/9EK-39rH5l1Ybfa0I3Fom2oU2EjvwigahuwaCWJjuy8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXM4LmFscGhhY29k/ZXJzLmNvbS84MjYv/ODI2MjA1LmpwZw" alt="Recipe 1">
+                    <h3>spaguetti boloniaise</h3>
+                    <p>
+                      Le Spaghetti Bolognese est un plat italien populaire et savoureux, 
+                      constitué de pâtes spaghetti servies avec une sauce bolognaise riche et épaisse. 
+                      La sauce bolognaise est préparée à partir de viande hachée, généralement de bœuf ou de porc, 
+                      cuite avec des légumes aromatiques tels que les oignons, l'ail, les carottes et le céleri.
+                       La sauce est ensuite mijotée avec des tomates,
+                       du vin rouge et des herbes pour développer des saveurs profondes et complexes. Ce plat est généralement
+                        servi avec du parmesan râpé et du persil frais pour ajouter une touche de saveur et de couleur.
+                    </p>
+                    <a href="#" class="btn">Voir la recette</a>
+                </div>
+                <div class="recipe-card">
+                    <img src="https://imgs.search.brave.com/KyhIETda6lhfWO9nxJrznYNXwdmnVwMdWWFmJqSEN50/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cHJhdGljby1wcmF0/aXF1ZXMuY29tL2Fw/cC91cGxvYWRzL3Np/dGVzLzIvMjAxOC8w/OC8yODAwMTAxMC9n/dWFjYW1vbGUtZXhw/cmVzcy01NTB4NTUw/LmpwZWc" alt="Recipe 2">
+                    <h3>l'avocat</h3>
+                    <p>
+                      L'avocat est un fruit crémeux et nutritif, apprécié pour sa texture onctueuse et son goût doux.
+                       Riche en graisses saines, en fibres, vitamines (E, K, C, B6) et minéraux comme le potassium, 
+                       il est excellent pour le cœur. Polyvalent en cuisine, il est utilisé dans des salades, toasts,
+                        smoothies et guacamole. Sa popularité a augmenté grâce à ses nombreux bienfaits pour la santé et 
+                        son intégration facile dans divers régimes alimentaires.
+                    </p>
+                    <a href="#" class="btn">Voir la recette</a>
+                </div>
+                <div class="recipe-card">
+                    <img src="https://imgs.search.brave.com/pvSQuVttyrfjCrbp2k_pHhlJbQYV9jxFQlmUIeNOq7U/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9k/L2QzL0JhaGlhX2Fj/YXJhamUuanBn" alt="Recipe 3">
+                    <h3>acoumet</h3>
+                    <p>
+                      Le cabato béninois est un pain traditionnel du Bénin, apprécié pour sa texture moelleuse et son goût légèrement sucré.
+                       Fabriqué à partir de farine, de levure, de sucre, de sel et parfois de lait, il est souvent façonné en petites boules ou en baguettes avant d'être cuit au four.
+                        Ce pain est idéal pour accompagner divers plats, tels que les ragoûts, les soupes et les grillades. Consommé fréquemment au petit-déjeuner ou en collation, le
+                         cabato béninois est aimé pour sa simplicité de préparation et sa versatilité en cuisine.
+                    </p>
+                    <a href="#" class="btn">Voir la recette</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <style>
+
+        /* Styles généraux */
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles pour la barre de navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #555;
+}
+
+/* Styles pour le contenu principal */
+main {
+    padding: 20px;
+}
+
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #fda085;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f6d365;
+}
+
+.featured-recipes {
+    margin-top: 40px;
+}
+
+.featured-recipes h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.recipe-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.recipe-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.recipe-card h3 {
+    margin-bottom: 10px;
+}
+
+.recipe-card p {
+    margin-bottom: 20px;
+}
+
+Styles pour le footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+    </style>
+    <!-- footer -->
+
+      <footer style="    text-align: center;
+      padding: 10px;
+      position: end;
+      bottom: 0;
+      width: 100%;">
+        <div class="footer-content">
+          <h3>Restez connecté</h3>
+          <p>Suivez-mmoi  sur les réseaux sociaux pour rester informé de mes dernières recettes et actualités.je tiens a preciser certains de ses reseau sociaux ne sont pas 
+            encore disponible donc veuiller me contacter au <a href="telephone">"+2250594547632"</a>si vous ete interser pas la creation d un 
+            site internet vitrine ,orsini vous dis merci et a bientot pour de nouveau projet encore plus foux.
+          </p>
+          <div class="social-links" style="display: flex;">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i><img src="./logo_site_externe/facebook.png" alt=" image" width="100px" height="100px"></a>
+            <a href="https://x.com/"><i class="fab fa-twitter"><img src="./logo_site_externe/twitter.png" alt="image twitter" width="100px" height="100px"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"><img src="./logo_site_externe/instagram.png" alt="imageinstagram" width="100px" height="100px"></i></a>
+            <a href="https://www.pinterest.com/"><i class="fab fa-pinterest"><img src="./logo_site_externe/pinterest.png" alt="image pinterest" width="100px" height="100px"></i></a>
+            <a href="https://www.pinterest.com/"><i class="fab fa-pinterest"><img src="./logo_site_externe/whatsapp.png" alt="image whatsapp" width="100px" height="100px"></i></a>
+            <a href="https://www.pinterest.com/"><i class="fab fa-pinterest"><img src="./logo_site_externe/youtube.png" alt="image youtube" width="100px" height="100px"></i></a>
+            <a href="https://mail.google.com/"><i class="fab fa-pinterest"><img src="./logo_site_externe/social.png" alt="image youtube" width="100px" height="100px"></i></a>
+          </div>
+          <p>&copy; 2023 Votre Site de Recettes. Tous droits réservés.</p>
+        </div>
+      </footer>
+</body>
+</html>
