@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECETTE</title>
+    <link rel="shortcut icon" href="./logo_site_externe/orsini logo.jpeg">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Merriweather', serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(./image_background_biographie/th.jpeg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+        }
+
+        nav h1 {
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 5px 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        .global {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #FF6B6B;
+        }
+
+        .table1, .table2, .table3, .table4, .table5, .table6, .table7 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .recette1, .recette2, .recette3, .recette4, .recette5, .recette6,
+        .recette7, .recette8, .recette9, .recette10, .recette11, .recette12,
+        .recette13, .recette14, .recette15, .recette16, .recette17, .recette18,
+        .recette19, .recette20, .recette21 {
+            width: 300px;
+            background-color: #FFF;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .recette1:hover, .recette2:hover, .recette3:hover, .recette4:hover,
+        .recette5:hover, .recette6:hover, .recette7:hover, .recette8:hover,
+        .recette9:hover, .recette10:hover, .recette11:hover, .recette12:hover,
+        .recette13:hover, .recette14:hover, .recette15:hover, .recette16:hover,
+        .recette17:hover, .recette18:hover, .recette19:hover, .recette20:hover,
+        .recette21:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #FF6B6B;
+            margin: 10px;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.5;
+            margin: 10px;
+            font-size: 14px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .social-links a {
+            margin: 5px;
+        }
+
+        .social-links img {
+            width: 40px;
+            height: 40px;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .recette1, .recette2, .recette3, .recette4, .recette5, .recette6,
+            .recette7, .recette8, .recette9, .recette10, .recette11, .recette12,
+            .recette13, .recette14, .recette15, .recette16, .recette17, .recette18,
+            .recette19, .recette20, .recette21 {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>COOK_FOREVER PAR ELKAST</h1>
+        <ul>
+            <li><a href="index.html">accueil</a></li>
+            <li><a href="recette.html">recette</a></li>
+            <li><a href="a_propos.html">a propos</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="global">
+        <h1>RECETTES COOK_FOREVER</h1>
+
+            <!-- PAGE DES RECETTES -->
+    <div class="global">
+
+
+        <!-- table1 -->
+        <h1>RECETTES COOK_FOREVER</h1>
+        <div class="table1">
+            <div class="recette1">
+                <h2>Bœuf Bourguignon</h2>
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Zdi2mn0S_SUnQJydT7U3qwHaE8%26pid%3DApi&f=1&ipt=f4dd3880119708cb29e86aba5fefa91ed6d8eaabdae4e9325214a780cb83c900&ipo=images" alt="boeuf bourguignon">
+                <p>Préparation : 30 minutes</p>
+                <p>Cuisson : 3 heures</p>
+                <p>Difficulté : Moyenne</p>
+                <p>Ingrédients : 1kg de bœuf, 150g de lardons, 500g de carottes, 2 oignons, 2 gousses d'ail, 75cl de vin rouge, bouquet garni</p>
+                <p>Prix : 4000FCFA</p>
+            </div>
+
+
+            <div class="recette2">
+                <h2>Risotto à la sauce tomate</h2>
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.O3LE5yFLgLYRJmCrZs7PYwHaFj%26pid%3DApi&f=1&ipt=99c9d7002ddb143740c3c1d6eb5bb7ddb83e29512421169c5fd5fd08725a1ea0&ipo=images" alt="risotto">
+                <p>Préparation : 20 minutes</p>
+                <p>Cuisson : 45 minutes</p>
+                <p>Difficulté : Facile</p>
+                <p>Ingrédients : 450g de riz, 150g de lardons de saumon, 250g de tomate fraîche, 125g de coulis de tomate, 25g de ciboulette,<br> 1 cuillère à soupe de basilic, 1/2 cuillère à soupe d'échalotte, 1/4 de cuillère à soupe d'oignon,</p>
+                <p>prix:14$</p>
+            </div>
+            <div class="recette3">
+                <h2>Spaghetti Carbonara</h2>
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.rNw1SOJsZRA7CydoyBuf_wHaLH%26pid%3DApi&f=1&ipt=b8ddf6c42101ccd500d599da1cec97573402409fdeeec516c472ab700e3f2b24&ipo=images" alt="carbonara">
+                <p>Préparation : 15 minutes</p>
+                <p>Cuisson : 20 minutes</p>
+                <p>Difficulté : Facile</p>
+                <p>Ingrédients : 400g de spaghetti, 200g de lardons, 100g de parmesan, 4 œufs, 20cl de crème fraîche, poivre, sel</p>
+                <p>Prix : 1560FCFA</p>
+            </div>
+        </div>
+        <!-- table 2 -->
+       
+        <div class="table2">
+            <div class="recette4">
+                <h2>Salade César</h2>
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.esq4lmjkT8HMZ60VmcXf0QHaE8%26pid%3DApi&f=1&ipt=b58dbf29e194e0cff566ae0517d8ceadabf6dca99ce95b10d53991473da520da&ipo=images" alt="salade césar">
+                <p>Préparation : 10 minutes</p>
+                <p>Cuisson : 10 minutes</p>
+                <p>Difficulté : Facile</p>
+                <p>Ingrédients : 200g de laitue romaine, 150g de poulet grillé, 50g de parmesan, 100g de croûtons, sauce césar</p>
+                <p>Prix : 1000FCFA</p>
+            </div>
+
+
+            <div class="recette5">
+                <h2>Ratatouille</h2>
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.sDCi_vCrv9aQRomv_oZZyAHaFL%26pid%3DApi&f=1&ipt=43e408b41ca5d2b4e3a99d6f490c39662fb3d69e2dbb407f957a8d59278513a7&ipo=images" alt="ratatouille">
+                <p>Préparation : 20 minutes</p>
+                <p>Cuisson : 1 heure</p>
+                <p>Difficulté : Moyenne</p>
+                <p>Ingrédients : 2 aubergines, 3 courgettes, 4 tomates, 2 poivrons, 2 oignons, 3 gousses d'ail, thym, laurier</p>
+                <p>Prix : 1200FCFA</p>
+            </div>
+
+
+            <div class="recette6">
+                <h2>Coq au vin</h2>
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.puwS8EAwZi64M1Rz89SG4AHaHa%26pid%3DApi&f=1&ipt=0b22e7db127890b919458726f2a1299fcfd75c055a37522dba3d8ed9ff9eeb2c&ipo=images" alt="coq au vin">
+                <p>Préparation : 30 minutes</p>
+                <p>Cuisson : 2 heures</p>
+                <p>Difficulté : Difficile</p>
+                <p>Ingrédients : 1 coq découpé, 200g de lardons, 500g de champignons, 2 oignons, 2 gousses d'ail, 75cl de vin rouge, bouquet garni</p>
+                <p>Prix : 2200FCFA</p>
+            </div>
+        </div>
+ <!-- table3 -->
+    <div class="table3">
+        <div class="recette7">
+            <h2>Quiche Lorraine</h2>
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.6s0N-5T7t3mCUhHLE0E0DQHaFj%26pid%3DApi&f=1&ipt=05cb6dc04853d52aac913ae42272fa8141acfc4674dbcb5f4ea8dc6dd60873b0&ipo=images" alt="quiche lorraine">
+            <p>Préparation : 15 minutes</p>
+            <p>Cuisson : 40 minutes</p>
+            <p>Difficulté : Facile</p>
+            <p>Ingrédients : 1 pâte brisée, 200g de lardons, 3 œufs, 20cl de crème fraîche, 100g de gruyère râpé, sel, poivre</p>
+            <p>Prix : 10000FCFA</p>
+        </div>
+
+
+        <div class="recette8">
+            <h2>Blanquette de veau</h2>
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.dCRDsBK5Pdx-AgChSlZ_kwHaEw%26pid%3DApi&f=1&ipt=f6e0a544e6f48ae01c97a998f7d868441d96f3195d9a446aa92d82f2464ac2f8&ipo=images" alt="blanquette de veau">
+            <p>Préparation : 30 minutes</p>
+            <p>Cuisson : 2 heures</p>
+            <p>Difficulté : Moyenne</p>
+            <p>Ingrédients : 1kg de veau, 200g de champignons, 2 carottes, 1 oignon, 2 gousses d'ail, 30cl de bouillon, 20cl de crème fraîche</p>
+            <p>Prix : 18$</p>
+        </div>
+        <div class="recette9">
+            <h2>Tartiflette</h2>
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.qNa72aRGivwWx2LOFD2h0wHaE3%26pid%3DApi&f=1&ipt=236db95caab9a75b887348936ace2fe6e508d91551b14e7fdef9f8064f9b2030&ipo=images" alt="tartiflette">
+            <p>Préparation : 20 minutes</p>
+            <p>Cuisson : 45 minutes</p>
+            <p>Difficulté : Facile</p>
+            <p>Ingrédients : 1kg de pommes de terre, 200g de lardons, 1 oignon, 1 reblochon, 20cl de crème fraîche</p>
+            <p>Prix : 1500FCFA</p>
+        </div>
+    </div>
+    <!-- table4 -->
+    <div class="table4">
+        <div class="recette10">
+            <h2>Soupe à l'oignon</h2>
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.LS7EvSohSV-99-dO478mWQHaHc%26pid%3DApi&f=1&ipt=6722f35cda1a310ccd6a48b3cb903e51d8e94a7377ab7e95cd28685d7a7af37a&ipo=images" alt="tartiflette">
+            <p>Préparation : 15 minutes</p>
+            <p>Cuisson : 30 minutes</p>
+            <p>Difficulté : Facile</p>
+            <p>Ingrédients : 6 oignons, 50g de beurre, 1l de bouillon de volaille, 100g de gruyère râpé, 4 tranches de pain</p>
+            <p>Prix : 8000FCFA</p>
+        </div>
+
+
+        <div class="recette11">
+            <h2>Yassa au Poulet</h2>
+            <img src="https://imgs.search.brave.com/_E3QqJKwnMmWafgRfjbH0LdwNhldYtArWO_B9yzO3bE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWct/My5qb3VybmFsZGVz/ZmVtbWVzLmZyL0Y2/eTRvci1sM2daMmtU/V0dDaUc2NU9Ma1Rh/MD0vNzUweDUwMC8x/ZjExNDNmYzI5ZjI0/ZDZhYjc4ZmZjYjQz/YmE5ZWZiYS9jY21j/bXMtamRmLzM5ODky/NTc3LmpwZw" alt="Yassa au Poulet">
+            <p>Préparation : 30 minutes</p>
+            <p>Cuisson : 1 heure</p>
+            <p>Difficulté : Moyenne</p>
+            <p>Ingrédients : 1 poulet entier, 3 oignons, 3 citrons, 2 gousses d'ail, 4 cuillères à soupe d'huile d'olive,<br> sel, poivre, piment</p>
+            <p>prix : 1800FCFA</p>
+        </div>
+
+
+        <div class="recette12">
+            <h2>Poulet DG</h2>
+            <img src="https://imgs.search.brave.com/K_YxYw3KKkPdUD0fny9GB_prkSed-SsMD9gpk3k2iVQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8z/LzMwL1BvdWxldF9E/Ry5KUEc" alt="Poulet DG">
+            <p>Préparation : 35 minutes</p>
+            <p>Cuisson : 1 heure</p>
+            <p>Difficulté : Moyenne</p>
+            <p>Ingrédients : 1 poulet, 4 plantains mûrs, 2 carottes, 2 poivrons, 1 oignon, 2 gousses d'ail,<br> huile, sel, poivre, piment</p>
+            <p>prix : 2200FCFA</p>
+        </div>
+    </div>
+
+
+    <!-- table5 -->
+    <div class="table5">
+        <div class="recette13">
+            <h2>Fufu et Eru</h2>
+            <img src="https://imgs.search.brave.com/H7yTvgdlQCmn4Gmh4_6wc4NcJ797CineG78Yo2UzrBQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZmluZWRpbmluZ2xv/dmVycy5jb20vc2l0/ZXMvZy9maWxlcy94/a25mZGs2MjYvZmls/ZXMvMjAyMS0xMS9m/dWZ1LWhpc3Rvcnkt/b3JpZ2lucyVDMiVB/OWlTdG9jay5qcGc" alt="Fufu et Eru">
+            <p>Préparation : 30 minutes</p>
+            <p>Cuisson : 1 heure</p>
+            <p>Difficulté : Moyenne</p>
+            <p>Ingrédients : 500g de fufu, 200g de eru, 200g de viande, 200g de poisson fumé, 2 oignons, 2 gousses d'ail,<br> huile, sel, poivre, piment</p>
+            <p>prix : 1800FCFA</p>
+        </div>
+
+
+        <div class="recette14">
+            <h2>Gombo Sauce</h2>
+            <img src="https://imgs.search.brave.com/QFow_cgsS5SWrILOuTELq_By5stpithUpLvlm9EpqvI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vd3d3LmFs/aWNlcGVnaWUuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIx/LzAzL3NhdWNlLWdv/bWJvLXRvZ28tMTIu/anBnP3Jlc2l6ZT0x/MDI0LDY4Mw" alt="Gombo Sauce">
+            <p>Préparation : 25 minutes</p>
+            <p>Cuisson : 45 minutes</p>
+            <p>Difficulté : Facile</p>
+            <p>Ingrédients : 500g de gombo, 200g de viande, 200g de poisson fumé, 2 oignons, 2 tomates, 2 gousses d'ail,<br> huile, sel, poivre, piment</p>
+            <p>prix : 1500FCFA</p>
+        </div>
+
+
+        <div class="recette15">
+            <h2>Attiéké Poisson</h2>
+            <img src="https://imgs.search.brave.com/ZhSdl422He0FWgv2xLyvETxi59P1O94EKPEw2txPEnc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzllLzQz/L2E3LzllNDNhNzNi/OGIyZTQ2NzE4YmEx/NjAwNzhhNGRkYjBk/LmpwZw" alt="Attiéké Poisson">
+            <p>Préparation : 20 minutes</p>
+            <p>Cuisson : 30 minutes</p>
+            <p>Difficulté : Facile</p>
+            <p>Ingrédients : 500g d'attiéké, 1 poisson entier, 2 tomates, 1 oignon, 1 citron, 2 gousses d'ail,<br> huile, sel, poivre, piment</p>
+            <p>prix : 17000FCFA</p>
+        </div>
+    </div>
+    <!-- table6 -->
+    <div class="table6">
+        <div class="recette16">
+            <h2>Braai (Barbecue Sud-Africain)</h2>
+            <img src="https://imgs.search.brave.com/d37Y-nqWe0-lGKVgoth3VZxXd_3_wio79X521dfCWOo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2FkYWNpbnRlcm5h/dGlvbmFsLmNvbS9t/ZWRpYS9jb250ZW50/X3BhZ2VzL0JvZXJ3/b3JzX1Nvc2F0aWVz/Xy1fQ0FEQUMuanBn" alt="Braai">
+            <p>Préparation : 1 heure</p>
+            <p>Cuisson : 2 heures</p>
+            <p>Difficulté : Difficile</p>
+            <p>Ingrédients : 1 kg de boeuf, 500g de poulet, 500g de saucisses, 4 poivrons, 2 oignons, 4 gousses d'ail,<br> huile, sel, poivre, épices à barbecue</p>
+            <p>prix : 3000FCFA</p>
+        </div>
+
+
+        <div class="recette17">
+            <h2>Mafé</h2>
+            <img src="https://imgs.search.brave.com/0H21nSnvV8zCAmaO5Wx7PrI2F13iV_RvjKVeLZBy5AA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cGFwaWxsZXNldHB1/cGlsbGVzLmZyL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIyLzAz/L01hZiVDMyVBOS1C/RC1CRC02MDB4NzUw/LmpwZw" alt="Mafé">
+            <p>Préparation : 30 minutes</p>
+            <p>Cuisson : 1 heure</p>
+            <p>Difficulté : Moyenne</p>
+            <p>Ingrédients : 500g de boeuf, 200g de pâte d'arachide, 2 tomates, 1 oignon, 2 gousses d'ail, 2 carottes,<br> huile, sel, poivre, piment</p>
+            <p>prix : 2000FCFA</p>
+        </div>
+        <div class="recette18">
+            <h2>Banane Plantain Frite</h2>
+            <img src="https://imgs.search.brave.com/joyNuMSc2__iYWCyivXaA9sFJD6yRtJLrD_3KPL-oxc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGFjdWlzaW5lZGV2/YS5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMTkvMTEvYWxv/a29zX2FsbG9jb3Mu/anBn" alt="Banane Plantain Frite">
+            <p>Préparation : 10 minutes</p>
+            <p>Cuisson : 20 minutes</p>
+            <p>Difficulté : Facile</p>
+            <p>Ingrédients : 4 bananes plantains mûres, huile, sel</p>
+            <p>prix : 8000FCFA</p>
+        </div>
+    </div>
+
+
+
+    <!-- table7-->
+    <div class="table7">
+        <div class="recette19">
+            <h2>Tieboudienne</h2>
+            <img src="https://imgs.search.brave.com/4tP1-yhzMiXirkG4Qj2vd0xbb6VBW5HRpHCK1nIUIKg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90aGVj/YW5hZGlhbmFmcmlj/YW4uY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIwLzExL0RT/Q18xOTI3LTgxOXgx/MDI0LmpwZw" alt="Tieboudienne">
+            <p>Préparation : 40 minutes</p>
+            <p>Cuisson : 1 heure 30 minutes</p>
+            <p>Difficulté : Difficile</p>
+            <p>Ingrédients : 500g de poisson, 2 tasses de riz, 4 tomates, 2 oignons, 1 carotte, 1 chou, 1 piment,<br> huile, sel, poivre</p>
+            <p>prix : 2500FCFA</p>
+       
+        </div>
+
+
+        <div class="recette19">
+            <h2>Jollof Rice</h2>
+            <img src="https://imgs.search.brave.com/kdDk85-pqu_cYXBQdOedbClU1X19hdTUp-ovSspYxXg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pY2hl/Zi5iYmNpLmNvLnVr/L2FjZS93cy82NDAv/Y3BzcHJvZHBiLzBE/RDAvcHJvZHVjdGlv/bi9fODcxNjM1MzBf/ZGUyOC0xLmpwZy53/ZWJw" alt="Jollof Rice">
+            <p>Préparation : 20 minutes</p>
+            <p>Cuisson : 45 minutes</p>
+            <p>Difficulté : Facile</p>
+            <p>Ingrédients : 2 tasses de riz, 4 tomates, 1 oignon, 2 poivrons, 2 gousses d'ail, 1 cube de bouillon,<br> huile, sel, poivre</p>
+            <p>prix : 12000FCFA</p>
+        </div>
+
+
+        <div class="recette20">
+            <h2>Ndolé aux crevettes</h2>
+            <img src="https://imgs.search.brave.com/UsKxQkSNAOxvtjhpuWKPrdkim5Vu8xGQhrAQper8zmY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vd3d3LmFs/aWNlcGVnaWUuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIz/LzAxL05kb2xlLXBv/aXNzb24tZnVtZS1l/dC1jcmV2ZXR0ZXMt/MjAtMS5qcGc_cmVz/aXplPTY2MCw0NjMm/c3NsPTE" alt="Ndolé aux crevettes">
+            <p>Préparation : 25 minutes</p>
+            <p>Cuisson : 50 minutes</p>
+            <p>Difficulté : Moyenne</p>
+            <p>Ingrédients : 500g de feuilles de ndolé, 300g de crevettes, 100g de pâte d'arachide, 2 oignons, 3 gousses d'ail,<br> 2 cubes de bouillon, huile, sel, poivre</p>
+            <p>prix : 20000FCFA</p>
+        </div>
+        
+        <!-- Insérez ici toutes vos cartes de recettes (table1 à table7) -->
+        <!-- J'ai omis le contenu des cartes pour la brièveté, mais assurez-vous de les inclure toutes -->
+
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Restez connecté</h3>
+            <p>Suivez-moi sur les réseaux sociaux pour rester informé de mes dernières recettes et actualités. Je tiens à préciser que certains de ces réseaux sociaux ne sont pas encore disponibles, donc veuillez me contacter au <a href="tel:+2250594547632">+2250594547632</a> si vous êtes intéressé par la création d'un site internet vitrine. Orsini vous dit merci et à bientôt pour de nouveaux projets encore plus fous.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/"><img src="./logo_site_externe/facebook.png" alt="Facebook"></a>
+                <a href="https://x.com/"><img src="./logo_site_externe/twitter.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/"><img src="./logo_site_externe/instagram.png" alt="Instagram"></a>
+                <a href="https://www.pinterest.com/"><img src="./logo_site_externe/pinterest.png" alt="Pinterest"></a>
+                <a href="https://www.whatsapp.com/"><img src="./logo_site_externe/whatsapp.png" alt="WhatsApp"></a>
+                <a href="https://www.youtube.com/"><img src="./logo_site_externe/youtube.png" alt="YouTube"></a>
+                <a href="https://mail.google.com/"><img src="./logo_site_externe/social.png" alt="Email"></a>
+            </div>
+        </div>
+        <p>&copy; 2023 Votre Site de Recettes. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
